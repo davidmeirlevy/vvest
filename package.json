@@ -1,14 +1,25 @@
 {
   "name": "vvest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue wrapper for Vest",
   "main": "index.js",
+  "keywords": [
+    "vest", 
+    "vue", 
+    "form-validations",
+     "forms",
+      "composition-api"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "David Meir-Levy",
   "license": "MIT",
-  "dependencies": {
-    "vest": "^2.2.3"
+  "peerDependencies": {
+    "vest": ">=2.2.3",
+    "vue": ">=3.0.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
